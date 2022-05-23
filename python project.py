@@ -9,7 +9,7 @@ def game():
 	def paper():
 		words=("Rock","Paper","Scissors")
 		c=str(random.choice(words))
-		label2=Label(sub,text=("Opponent: "+random.choice(words)))
+		label2=Label(sub,text=("Opponent: "+c))
 		label2.pack()
 		label4=Label(sub,text=("Your choice: Paper"))
 		label4.pack()
